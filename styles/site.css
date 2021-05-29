@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(203, 227, 221);
+  font-family: serif;
+  color: rgb(66, 66, 66);
+  margin: 0px;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  padding-left: 16px;
+  padding-top: 8px;
+  color: red;
+}
+
+.standard-padding {
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.7;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 250px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 8px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset ="UTF-8"/>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1"/>
+  <title>Number Challenge</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css" media="all"/>
+  <script src="scripts/validation.js" type="text/javascript" async></script>
+</head>
+<body>
+
+  <!-- Main content -->
+  <main id="form-content">
+    <div class="cover-photo">
+      <img src="images/number_line.jpeg" alt="Numbers Cover Photo">
+    </div>
+    <div class="column standard-padding">
+        <h2>Please input three numbers in order for them to be sorted.</h2>
+      <form id="numbers-form">
+        <div class="row">
+          <label for="number-one">First Number:</label>
+          <input type="number" name="number-one" id="number-one" value="0" min="0"/>
+        </div>
+        <div class="row">
+          <label for="number-two">Second Number:</label>
+          <input type="number" name="number-two" id="number-two" value="0" min="0"/>
+        </div>
+        <div class="row">
+          <label for="number-three">Third Number:</label>
+          <input type="number" name="number-three" id="number-three" value="0" min="0"/>
+        </div>
+        <div class="button">
+          <button type="button" onclick="sort_and_display()" name="submit-numbers" id="submit-numbers">Sort Numbers</button>
+        </div>
+      </form>
+      <div class="row">
+        <h2>Sorted Numbers:</h2>
+        <h3 id="placeholder"> </h3>
+      </div>
+    </div>
+  </main>
+  <!-- end main content -->
+</body>
+</html>
